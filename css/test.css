@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anything{
+    background-color: rgb(213, 213, 245);
+    height: 100vh;
+    width: 100%;
+    color: red;
+
+}
+
+@media (max-width:992px) {
+    .anything{
+    background-color: rgb(218, 210, 170);
+    height: 100vh;
+    width: 100%;
+    color: green;
+
+    }
+}
+
+@media (max-width:768px) {
+    .anything{
+    background-color: rgb(212, 245, 212);
+    height: 100vh;
+    width: 100%;
+    color: blue;
+
+    }
+}
+
+@media (max-width:500px) {
+    .anything{
+    background-color: rgb(169, 202, 202);
+    height: 100vh;
+    width: 100%;
+    color: brown;
+
+    }
+}
